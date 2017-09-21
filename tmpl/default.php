@@ -16,15 +16,15 @@
                     <p class="lead">Please complete the following details:</p>
                     <div class="required field">
                         <label>Full name:</label>
-                        <input type="text" name="service[name]" placeholder="Your full name">
+                        <input type="text" name="service[name]" placeholder="Your full name...">
                     </div>
                     <div class="required field">
                         <label>Contact number:</label>
-                        <input type="text" name="service[number]" class="numeric" placeholder="You contact number">
+                        <input type="text" name="service[number]" class="numeric" placeholder="You contact number...">
                     </div>
                     <div class="required field">
                         <label>Email:</label>
-                        <input type="text" name="service[email]" placeholder="Your email address">
+                        <input type="text" name="service[email]" placeholder="Your email address...">
                     </div>
                     <div class="required field">
                         <label>Service required:</label>
@@ -70,15 +70,15 @@
                     <p class="lead">Please complete the following details:</p>
                     <div class="required field">
                         <label>Full name:</label>
-                        <input type="text" name="rantrave[name]" placeholder="Your full name">
+                        <input type="text" name="rantrave[name]" placeholder="Your full name...">
                     </div>
                     <div class="required field">
                         <label>Contact number:</label>
-                        <input type="email" name="rantrave[number]" class="numeric" placeholder="Your contact number">
+                        <input type="email" name="rantrave[number]" class="numeric" placeholder="Your contact number...">
                     </div>
                     <div class="required field">
                         <label>Email:</label>
-                        <input type="email" name="rantrave[email]" placeholder="Your email address">
+                        <input type="email" name="rantrave[email]" placeholder="Your email address...">
                     </div>
 
                     <div class="required field">
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                    
-                    <div class="required field">
+                    <div class="field">
                         <label>Because:</label>
                         <textarea name="rantrave[message]" placeholder="Please provide additional information here."></textarea>
                     </div>

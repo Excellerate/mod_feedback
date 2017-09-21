@@ -9,16 +9,15 @@
  * @link
  *     
  */
- 
+
 // No direct access
 defined('_JEXEC') or die;
 
-// Load vendors
-include 'vendor/autoload.php';
+//include(JPATH_BASE.'/libraries/vendor/autoload.php');
 
 // Load helpers
-include 'helpers/db.php';
-include 'helpers/mailer.php';
+require_once('helpers/db.php');
+require_once('helpers/mailer.php');
 
 // Gather FuelPHP
 use Fuel\Validation\Validator;
