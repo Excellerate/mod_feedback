@@ -1,0 +1,8 @@
+{
+  "name": "excellerate/mod_feedback",
+  "type": "joomla-module",
+  "description": "Excellerate feedback module",
+  "require": {
+    "composer/installers": "*"
+  }
+}
